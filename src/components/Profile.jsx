@@ -42,7 +42,7 @@ function Profile() {
             <img
                 data-aos="fade-left"
                 className="w-[300px] md:w-[425px] mx-auto md:mx-0 hidden lg:block hover:border-secondary_purple hover:border-4 rounded-full hover:transition-all hover:duration-500"
-                src="/images/profile.png"
+                src="/images/Profile.png"
                 alt="profile picture"
             />
         </section>
