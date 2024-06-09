@@ -19,7 +19,7 @@ Welcome to my portfolio website! This website showcases my projects, skills, and
 ## Usage
 1. Start the development server:
 
-2. Open your browser and navigate to `http://localhost:3000` to view the website.
+2. Open your browser and navigate to [Website Portofolio](https://rizqsaputra.vercel.app/) to view the website.
 
 ## Credits
 - Design inspiration: []
