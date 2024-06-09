@@ -5,9 +5,9 @@ function Tools() {
                 Tools
             </h1>
             <div className="flex flex-wrap mt-9 gap-8 justify-center">
-                <img className="w-24 md:w-32 lg:w-40 cursor-pointer" src="../../public/images/Figma.png" alt="figma" />
-                <img className="w-24 md:w-32 lg:w-40 cursor-pointer" src="../../public/images/vscode.png" alt="vscode" />
-                <img className="w-24 md:w-32 lg:w-40 cursor-pointer" src="../../public/images/Github.png" alt="Github" />
+                <img className="w-24 md:w-32 lg:w-40 cursor-pointer" src="/images/Figma.png" alt="figma" />
+                <img className="w-24 md:w-32 lg:w-40 cursor-pointer" src="/images/vscode.png" alt="vscode" />
+                <img className="w-24 md:w-32 lg:w-40 cursor-pointer" src="/images/Github.png" alt="Github" />
             </div>
         </section>
     );

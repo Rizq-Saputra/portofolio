@@ -6,7 +6,7 @@ function Project() {
             <h1 className="font-semibold text-3xl md:text-4xl text-center text-white" data-aos="fade-up">Projects</h1>
             <div className="flex flex-col md:flex-row mt-9 justify-center items-center gap-10">
                 <div className="w-full md:w-1/2 hover:border-2 hover:transition-all hover:duration-500 cursor-pointer hover:ease-in-out border-secondary_purple rounded-md" data-aos="fade-up">
-                    <img className="w-full rounded-md" src="../../public/images/restaurant.png" alt="Project" />
+                    <img className="w-full rounded-md" src="/images/restaurant.png" alt="Project" />
                 </div>
                 <div className="w-full md:w-1/2 text-center md:text-left" data-aos="fade-up">
                     <h2 className="text-[31px] mt-4 text-white">Restaurat App with PWA</h2>
@@ -19,7 +19,7 @@ function Project() {
             </div>
             <div className="flex flex-col md:flex-row mt-9 justify-center items-center gap-10">
                 <div className="w-full md:w-1/2 hover:border-2 hover:transition-all hover:duration-500 hover:border-secondary_purple cursor-pointer hover:ease-in-out rounded-md" data-aos="fade-up">
-                    <img className="w-full rounded-md" src="../../public/images/project_PA.jpg" alt="Project" />
+                    <img className="w-full rounded-md" src="/images/project_PA.jpg" alt="Project" />
                 </div>
                 <div className="w-full md:w-1/2 text-center md:text-left" data-aos="fade-up">
                     <h2 className="text-[31px] mt-4 text-white">Wood Store</h2>
@@ -32,7 +32,7 @@ function Project() {
             </div>
             <div className="flex flex-col md:flex-row mt-9 justify-center items-center gap-10">
                 <div className="w-full md:w-1/2 hover:border-2 hover:transition-all hover:duration-500 cursor-pointer hover:ease-in-out border-secondary_purple rounded-md" data-aos="fade-up">
-                    <img className="w-full rounded-md" src="../../public/images/notes_project.png" alt="Project" />
+                    <img className="w-full rounded-md" src="/images/notes_project.png" alt="Project" />
                 </div>
                 <div className="w-full md:w-1/2 text-center md:text-left" data-aos="fade-up">
                     <h2 className="text-[31px] mt-4 text-white">Notes App</h2>
