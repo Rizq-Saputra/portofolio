@@ -22,7 +22,7 @@ function Navigation() {
       <div className="container mx-auto px-4 py-4 md:px-0">
         <div className="flex items-center justify-between py-4">
           <div className="text-white text-2xl cursor-pointer font-semibold">
-            Portofolio
+            Rizq Saputra
           </div>
           <nav className="block text-center absolute top-0 right-0 w-full z-10 md:text-left md:static md:w-auto">
             <div className="md:hidden text-end">

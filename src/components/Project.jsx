@@ -13,7 +13,7 @@ function Project() {
                     <p className="text-[#999999] text-lg mt-2">This is a brief description of the project. It provides an overview of the project&apos;s purpose, technologies used, and key features. This should be engaging and concise to grab the viewer&apos;s attention.</p>
                     <div className="flex gap-5  justify-center md:justify-start mt-4 md:mt-10">
                         <a target="_blank" href="https://github.com/Rizq-Saputra/Restaurant-App" className="flex"><button className="border-2 border-secondary_purple text-secondary_purple px-3 md:px-8 py-2 mt-4 md:mt-0 hover:bg-secondary_purple hover:text-white rounded-md transition-all duration-500 ease-in-out flex gap-2 items-center"><FaGithub/> Github</button></a>
-                        <a target="_blank" href="https://github.com/Rizq-Saputra/Restaurant-App" className="flex"><button className="border-2 border-secondary_purple text-secondary_purple px-3 py-2 md:px-8 mt-4 md:mt-0 text-nowrap hover:bg-secondary_purple hover:text-white rounded-md transition-all duration-500 ease-in-out flex gap-2 items-center"><FaArrowRight /> Visit Website</button></a>
+                        <a target="_blank" href="https://resto.pusling.my.id/" className="flex"><button className="border-2 border-secondary_purple text-secondary_purple px-3 py-2 md:px-8 mt-4 md:mt-0 text-nowrap hover:bg-secondary_purple hover:text-white rounded-md transition-all duration-500 ease-in-out flex gap-2 items-center"><FaArrowRight /> Visit Website</button></a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ function Project() {
                     <p className="text-[#999999] text-lg mt-2">This is a brief description of the project. It provides an overview of the project&apos;s purpose, technologies used, and key features. This should be engaging and concise to grab the viewer&apos;s attention.</p>
                     <div className="flex gap-5  justify-center md:justify-start mt-4 md:mt-10">
                         <a target="_blank" href="https://github.com/Rizq-Saputra/notes-app" className="flex"><button className="border-2 border-secondary_purple text-secondary_purple px-3 md:px-8 py-2 mt-4 md:mt-0 hover:bg-secondary_purple hover:text-white rounded-md transition-all duration-500 ease-in-out flex gap-2 items-center"><FaGithub/> Github</button></a>
-                        <a target="_blank" href="https://github.com/Rizq-Saputra/notes-app" className="flex"><button className="border-2 border-secondary_purple text-secondary_purple px-3 py-2 md:px-8 mt-4 md:mt-0 text-nowrap hover:bg-secondary_purple hover:text-white rounded-md transition-all duration-500 ease-in-out flex gap-2 items-center"><FaArrowRight /> Visit Website</button></a>
+                        <a target="_blank" href="https://notes.pusling.my.id/" className="flex"><button className="border-2 border-secondary_purple text-secondary_purple px-3 py-2 md:px-8 mt-4 md:mt-0 text-nowrap hover:bg-secondary_purple hover:text-white rounded-md transition-all duration-500 ease-in-out flex gap-2 items-center"><FaArrowRight /> Visit Website</button></a>
                     </div>
                 </div>
             </div>
