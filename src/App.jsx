@@ -1,12 +1,14 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
-import Profile from './components/Profile';
-import Language from "./components/Language";
-import Project from "./components/Project";
-import Tools from "./components/Tools";
-import Footer from './components/Footer'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import HomePage from "./pages/HomePage";
+import ProjectPage from "./pages/ProjectPage";
+import AboutPage from "./pages/AboutPage";
+import BlogPage from "./pages/BlogPage";
+import BlogDetail from "./pages/BlogDetail";
 
 function App() {
   useEffect(() => {
@@ -16,25 +18,30 @@ function App() {
         return window.innerWidth < maxWidth;
       },
       duration: 1200,
-      easing: "ease-in-out", 
-      once: true, 
+      easing: "ease-in-out",
+      once: true,
       mirror: true,
       anchorPlacement: "top-bottom",
-  });
-}, []);
+    });
+  }, []);
 
   return (
     <div className="bg-[#0C0C0C]">
-      <div  className="font-poppins px-6 lg:px-36 min-h-screen">
+      <header className="font-poppins px-6 lg:px-36">
         <Navigation />
-        <Profile />
-        <Language />
-        <Project />
-        <Tools />
-      </div>
+      </header>
+      <main>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/project" element={<ProjectPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog-detail/:id" element={<BlogDetail />} />
+        </Routes>
+      </main>
       <Footer />
     </div>
-  )
+  );
 }
 
 export default App;
