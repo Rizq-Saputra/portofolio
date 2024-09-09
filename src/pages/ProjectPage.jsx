@@ -11,34 +11,41 @@ const projects = [
   },
   {
     id: 2,
+    imageSrc: "/images/siemahat.png",
+    title: "SIE MAHAT",
+    learnMoreLink: "#",
+    visitWebsiteLink: "https://siemahat.com/"
+  },
+  {
+    id: 3,
     imageSrc: "/images/stuntcare.png",
     title: "Stuntcare",
     learnMoreLink: "#",
     visitWebsiteLink: "https://stuntcare.my.id/"
   },
   {
-    id: 3,
+    id: 4,
     imageSrc: "/images/notes.png",
     title: "Notes App",
     learnMoreLink: "#",
     visitWebsiteLink: "https://notes.pusling.my.id/"
   },
   {
-    id: 4,
+    id: 5,
     imageSrc: "/images/pusling.png",
     title: "Pusling App",
     learnMoreLink: "#",
     visitWebsiteLink: "https://pusling.my.id/"
   },
   {
-    id: 5,
+    id: 6,
     imageSrc: "/images/forum.png",
     title: "Forum App",
     learnMoreLink: "#",
     visitWebsiteLink: "https://forum-app-delta.vercel.app/"
   },
   {
-    id: 6,
+    id: 7,
     imageSrc: "/images/Wood.png",
     title: "Wood Store",
     learnMoreLink: "#",
