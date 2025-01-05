@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import ScrollToTop from './components/ScrollToTop'; 
 import AOS from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 import HomePage from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectPage";
 import AboutPage from "./pages/AboutPage";
@@ -15,8 +15,8 @@ function App() {
   useEffect(() => {
     AOS.init({
       disable: function () {
-        var maxWidth = 768;
-        return window.innerWidth < maxWidth;
+        // Disable AOS on screens smaller than 769px
+        return window.innerWidth <= 768;
       },
       duration: 1200,
       easing: "ease-in-out",
@@ -24,6 +24,10 @@ function App() {
       mirror: true,
       anchorPlacement: "top-bottom",
     });
+
+    return () => {
+      AOS.refresh();
+    };
   }, []);
 
   return (

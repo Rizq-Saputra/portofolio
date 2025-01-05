@@ -5,7 +5,6 @@ function ProjectCard({ project }) {
   return (
     <div
       className="rounded-lg shadow-lg overflow-hidden group cursor-pointer"
-      data-aos="fade-up"
     >
       <div className="overflow-hidden">
         <img
