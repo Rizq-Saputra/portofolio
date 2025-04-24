@@ -50,6 +50,13 @@ const projects = [
     title: "Wood Store",
     learnMoreLink: "#",
     visitWebsiteLink: "https://github.com/RizqSaputra/PA-WEB"
+  },
+  {
+    id: 8,
+    imageSrc: "/images/hdr.png",
+    title: "Pengiriman Haderah",
+    learnMoreLink: "#",
+    visitWebsiteLink: "https://haderah.vercel.app/"
   }
 ];
 
